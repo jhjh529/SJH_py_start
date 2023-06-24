@@ -19,10 +19,11 @@ print()
 for i in range(20,0,-2):  #20,18,16,·····,2
   print(i,end=' ')
 
-
+'''
+기본 
 for 변수 in range(시작값,종료값,증가값)
   문장~~
-
+'''
 ```
 >이중 for문 예제
 ```python
