@@ -22,7 +22,7 @@
 >print(fruits)
 >```
 >
->>3️⃣ index() ➡ ✔index(인덱스번호)  인덱스번호의 값 가져옴
+>>3️⃣ index() ➡ ✔index(값)  값의 인덱스번호를 가져옴
 >```python
 >number = [5,20,13,7,8,22,7,17]
 >print(number)
