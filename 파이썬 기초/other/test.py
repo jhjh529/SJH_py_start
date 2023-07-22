@@ -59,14 +59,14 @@ else :
 
     if y==0 :
       print('='*50)
-      print('#----# ==> 값=',e,'x=',x)  
+      print('#----# ==> 값=',int(e),'x=',int(x))  
       print('='*50)
       m=m+1
-      print('개수 : ',m)
+      print('개수 : ',int(m))
     if e==1 :
       print('\n\n\n!!!=============끝!=============!!!\n\n\n')
-      c=m/2
-      n=int('%.0f'%c)
+      c=int(m/2)
+      n=int('%d'%c)
       print('\n'*3+'*정보( 총 개수:',m,'실제 개수:',n+m%2-1,' )')
       break
       
