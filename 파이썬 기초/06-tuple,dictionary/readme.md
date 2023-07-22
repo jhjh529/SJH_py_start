@@ -71,12 +71,11 @@ print(user['point'])
 
 * 요소 변경
 ```python
-user = {"id":'kim55','name':'강성준','level':7,'point':10000}
+scores = {'kor':90,'eng':89,'math':98}
+print(scores)
 
-print(user)
-print(user['id'])
-print(user['name'])
-print(user['point'])
+scores['music']=100
+print(scores)
 ```
 
 * 요소 삭제
